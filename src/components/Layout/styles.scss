@@ -1,0 +1,21 @@
+.title {
+  position: absolute;
+  height: 80px;
+  left: 150px;
+  right: 0;
+  top: 0;
+  margin: 0;
+  background: #fff;
+  color: black;
+  padding-left: 15px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.content {
+  position: absolute;
+  left: 150px;
+  top: 80px;
+  height: 100%;
+  padding: 15px;
+}

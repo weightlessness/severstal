@@ -1,0 +1,28 @@
+.root {
+  position: relative;
+}
+
+.buttonWrapper {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.button {
+  height: 30px;
+  outline: none;
+  border: 0;
+  background: #109cf1;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+
+  &:hover {
+    background: #34aff9;
+  }
+
+  &:disabled {
+    background: #9b9b9b;
+    cursor: unset;
+  }
+}
